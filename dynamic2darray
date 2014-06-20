@@ -1,0 +1,38 @@
+// INPUT:  A two-dimensional grid of size NxN, where N is the `size` variable listed below.
+//   OUTPUT: A single array, listing the columns that you pass through.  For example, [1, 2, 3..]
+//           means that in row 0, you are in column 1; in row 1, you are in column 2, etc
+//           The output should be of length equal to the `size` variable.
+
+ var size = 5;
+
+// function  findMinimumPath (size){
+//
+  
+//     for (var i = 0; i < size.length; i++){
+//       var two = [];
+//       for (var j = 0; j < size.length; )
+//     return twoDArray.push[i];
+//   }
+//   return twoDArray;
+// }
+
+// functionMimimumPath(size);
+
+function firstloop (number){
+  var firstArray = new Array(number);
+  var twoDArray = [];
+
+  for(var i= 0; i <= firstArray.length; i++){
+    twoDArray.push(i);
+    twoDArray[i] = [];
+    for (var j=0;j <= firstArray.length; j++){
+      twoDArray[i].push(j);
+    }
+  }
+
+  return twoDArray;
+}
+firstloop();
+
+console.log(size);
+console.log(firstloop(size));
